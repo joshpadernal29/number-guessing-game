@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+body{
+    background: linear-gradient(skyblue,violet);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+span{
+    color: purple;
+}
+.container{
+    display: block;
+    border: 3px solid;
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+.container #result input{
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container .numbers input{
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container .btn{
+    margin-top: 10px;
+    color: black;
+}
+.container .btn :hover{
+    color: white;
+    background-color: green;
+}
