@@ -42,3 +42,11 @@ span{
     color: white;
     background-color: green;
 }
+.container .retry{
+    margin-top: 15px;
+    color: black;
+}
+.container .retry :hover{
+    color: white;
+    background-color: green;
+}
